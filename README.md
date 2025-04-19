@@ -1,6 +1,3 @@
-# Network-Port-Analyzer
-Network Port Analyzer is a multithreaded Python-based tool designed for efficient TCP port scanning across a specified IP and port range. It provides real-time results and visualizes open vs. closed ports using intuitive charts, making it ideal for network diagnostics and security audits.
-
 # 🔍 Network Port Analyzer
 
 **Network Port Analyzer** is a multithreaded TCP port scanning tool built with Python. It scans a range of ports on a given IP address, identifies open and closed ports, and visualizes the results using bar charts. Ideal for network diagnostics, penetration testing, and educational use.
@@ -31,17 +28,17 @@ Install the required packages:
 
 ```bash
 pip install matplotlib
-
-```Terminal
+```
+```For Running the code port_scanner.py
 python port_scanner.py // For running the program with the file extension .py
-
+```
 #### Output you might see.
 
   Enter target IP address: 192.168.1.1
   Enter start port: 20
   Enter end port: 100
 
-The script will:
+###The script will:
 
 Scan all ports in the range
 
